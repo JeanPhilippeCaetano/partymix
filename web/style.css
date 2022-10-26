@@ -1,0 +1,61 @@
+html {
+    background-color: black;
+}
+
+#Title {
+    font-size: 3em;
+    color: teal;
+    text-align: center;
+    font-family: Courrier, monospace;
+    border: 4px rgb(2,55,55) solid;
+    border-radius: 10px;
+}
+
+#Results {
+    font-size: 1,5em;
+    color: teal;
+    text-align: center;
+    font-family: Courrier, monospace;
+}
+/*Search bar*/
+form {
+    width: 400px;
+    margin: auto;
+}
+input {
+    padding: 4px 10px;
+    border: 0;
+    font-size: 16px;
+}
+.search {
+    width: 70%;
+}
+.submit {
+    width: 80px;
+    background-color: teal;
+    font-family: Courrier, monospace;
+    color: #ffffff;
+}
+.submit:hover {
+    background-color: blueviolet;
+}
+/*container*/
+.flex-container {
+    display: flex;
+    border: 4px rgb(2,55,55) solid;
+    border-radius: 10px;
+}
+  
+.flex-container > div {
+    background-color: rgb(2,55,55);
+    margin: 1em;
+    padding: 2em;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.text-in-container {
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
